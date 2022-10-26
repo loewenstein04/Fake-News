@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: radial-gradient(#999999,#888888) ;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 1px 3px #000000;
+}
+
+.logo{
+    margin-top: 5px;
+    margin-left: 100px;
+    color: #ffffff;
+    text-shadow: -8px 1px 3px #888888, 8px 1px 3px #000000;
+  
+}
+
+.menu{
+    margin-top: -6px;
+    margin-left: 800px ;
+
+}
+
+.home{
+    text-shadow: 1px 1px 3px blue;
+    font-size: 25px;
+}
+
+.combate{
+    text-shadow: 1px 1px 3px blue;
+    font-size: 25px;
+}
+
+.site{
+    text-shadow: 1px 1px 3px blue;
+    font-size: 25px;
+}
+
+.sobre{
+    text-shadow: 1px 1px 3px blue;
+    font-size: 25px;
+}
+li{
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000000;
+    transition: 1s;
+}
+
+li:hover{
+    scale: 1.20;
+    color: blue;
+    
+}
+
+a:hover{
+    
+    text-shadow: 1px 1px 3px blue;
+    
+}
+
+.titulotwo{
+    margin-top: 250px;
+    margin-left: -50px ;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #000000;
+    color: #ffffff;
+}
+
+.botao{
+    position: relative;
+    top: 20px;
+    left: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px #888888;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    cursor: pointer;
+    scale: 1.20;
+}
+
+
+section{
+    width: 800px;
+    margin: 0px auto;
+}
+
+img{
+    opacity: 60%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    width: 600px;
+    height: 500px;
+    box-shadow: -5px 1px 5px #888888, 5px 1px 5px #000000; 
+    transition: 1s;
+}
+
+img:hover{
+    scale: 1.10;
+    opacity: 100%;
+}
+p{
+    text-indent: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+    color: #ffffff ;
+    text-shadow: 1px 1px 3px #000000;
+    
+}
+
+h2{ 
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: rgb(233, 96, 96) ;
+    text-shadow: 1px 1px 3px #000000;
+    text-indent:50px;
+}
+
+
+h3{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(110, 96, 233) ;
+    text-shadow: 1px 1px 3px #000000;
+    text-indent:50px;
+}
+
+
+footer#rodape{
+    position: absolute;
+    top: 535px;
+    left:20px;
+
+}
+
+footer#rodape .copy{
+    text-indent: 80px;
+}
+
+footer#rodape a{
+    color: red;
+    transition: 1s;
+}
+
+footer#rodape a:hover{
+    font-size: 30px;
+}
